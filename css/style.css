@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 70px;
+    background-color: #0084FD;
+    position: fixed;
+    width: 100vw;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding-top: 15px;
+}
+
+main{
+    padding-top: 80px;
+}
