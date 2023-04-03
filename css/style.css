@@ -4,11 +4,18 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* Regole Header */
+
 header{
     height: 70px;
     background-color: #0084FD;
     position: fixed;
     width: 100vw;
+    z-index: 900;
 }
 
 .container{
@@ -24,6 +31,101 @@ header .container{
     padding-top: 15px;
 }
 
+.mainnav{
+    display: flex;
+}
+
+.extended-mainnav{
+    display: none;
+    padding: 0 auto;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.menu li{
+    padding: 10px;
+    margin: 0 15px;
+}
+
+#sign-in{
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+
+}
+
+/* Regole Main */
+
 main{
-    padding-top: 80px;
+    padding-top: 6.5em;
+}
+
+/* Regole Demo*/
+.blucard{
+    background-color: #B5DDFF;
+    padding: 1em;
+    margin: 1.2em auto;
+    border-radius: 1.6em;
+    text-align: center;
+}
+.blucard h2{
+    text-align: center;
+    color: #0285FD;
+    font-size: 4em;
+ 
+}
+.blucard h3 {
+    padding-top: 1em ;
+    color: #0285FD;
+    font-size: 1.3em;
+    margin-bottom: 1.4em;
+}
+
+.demo{
+    position:relative;
+}
+
+.centered{
+    padding: 1.2em 2em;
+}
+
+.demo button{
+    background-color:#0084FD;
+    padding: 1em 2em;
+    border: 0;
+    border-radius: 1.8em;
+    color: #fff;
+    margin: 1.4em auto;
+    position: relative;
+    /* left: 50%;
+    transform: translateX(-50%); */
+
+}
+
+.demo img{
+    width: 70%;
+    text-align: center;
+    position: relative;
+    /* left: 50%;*/
+    transform: translate(0 , 15%); 
+}
+
+.blucard p{
+    color: #6E859B;
+    margin-bottom: 1.4em;
+}
+
+/* Regole Planning */
+.planning{
+    background-color: #9593E6;
+}
+
+.plan-img img{
+    position: relative;
+    left: 10%;
+    margin: 1.3em auto;
+    width: 70vw;
 }
