@@ -446,3 +446,35 @@ footer a{
         margin-right: 2em;
     }
 }
+
+/*********************************************************
+**********************************************************
+                    VERSIONE DESKTOP
+**********************************************************
+**********************************************************/
+
+@media screen and (min-width:810px) {
+    
+    .planning-flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .plan-img img{
+        /* position: relative; */
+        left: 0;
+        margin: 1.3em 0;
+        width: 40vw;
+    }
+
+    .pl-flex-left{
+        width: 50%;
+    }
+
+    .pl-flex-right{
+        width: 40%;
+        margin-left: 1.2em;
+
+    }
+}
