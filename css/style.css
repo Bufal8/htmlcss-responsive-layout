@@ -85,7 +85,7 @@ main{
 }
 
 .demo{
-    position:relative;
+    /* position:relative; */
 }
 
 .centered{
@@ -108,9 +108,9 @@ main{
 .demo img{
     width: 70%;
     text-align: center;
-    position: relative;
-    /* left: 50%;*/
-    transform: translate(0 , 15%); 
+    /* position: relative;
+    left: 50%; 
+    transform: translate(0 , 15%);*/ 
 }
 
 .blucard p{
@@ -199,18 +199,20 @@ main{
 }
 
 .testimonial-img{
-    width: 10em;
-    height: 10em;
+    width: 8em;
+    height: 8em;
     position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
     overflow: hidden;
     border-radius: 50%;
-    left: 15%;
+    
 }
 
 .testimonial-img img{
     display: inline;
     margin: 0 auto;
-    margin-left: -25%;
+    margin-left: -25%; 
     height: 100%;
     width: auto;
 }
@@ -363,4 +365,84 @@ footer p:last-child{
 
 footer a{
     color: #9593E6;
+}
+
+/*********************************************************
+**********************************************************
+                    VERSIONE TABLET
+**********************************************************
+**********************************************************/
+
+@media screen and (min-width: 480px)
+{
+    /* Sezione Demo */
+    .demo .row{
+        display: flex;
+        max-width: 100%;
+    }
+
+    .blucard{
+        padding: .8em;
+        margin: 1.2em .3em;
+    }
+
+    .clean{
+        width: 75%;
+    }
+
+    /* Sezione Testimonial */
+
+    .testimonial-card{
+        display: flex;
+        align-items:flex-start;
+    }
+
+    .testimonial-img{
+        position: relative;
+        width: 100%;
+        position: static;
+        left: 0;
+        transform: translate(0, 0);
+        overflow: hidden;
+        border-radius: 50%;
+        
+    }
+    
+    .testimonial-img img{
+        display: inline;
+        margin: 0 auto;
+        object-fit: cover;
+        height: auto;
+        width: 100%;
+        height: 100%;
+    }
+
+    .review{
+        margin-top: 0;
+    }
+
+    .testimonial-name{
+        font-size: .9em;
+    }
+
+    /* Sezione features */
+
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .numbered-features{
+        width: 47%;
+        margin: 1.2em auto;
+    }
+
+    /* Sezione about-us */
+    .about-us-flex{
+        display: flex;
+    }
+
+    .left-col{
+        margin-right: 2em;
+    }
 }
