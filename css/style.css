@@ -225,3 +225,142 @@ main{
     padding-top: 2em;
     font-size: 1.4em;
 }
+
+/* Sezione Features */
+.features{
+    background-color: #9593E6;
+    padding-bottom: 2em;
+}
+
+.features h3:first-child{
+    font-size: 1.6em;
+    color: #fff;
+    text-align: center;
+    margin-top: 2em;
+    padding-top: 2em;
+}
+
+.numbered-features{
+    background-color: #fff;
+    border-radius: 2em;
+    padding: 1.4em;
+    margin-top: 1.6em;
+}
+
+.numbered-features h2{
+    font-size: 2.2em;
+    margin-bottom: .7em;
+    color: #9593E6;
+}
+
+.numbered-features h3{
+    font-size: 1.4em;
+    margin-bottom: 1em;
+    color: #9593E6;
+}
+
+.numbered-features p{
+    margin-bottom: 1.4em;
+}
+
+.numbered-features button{
+    border: none;
+    background-color: #9593E6;
+    color: #fff;
+    padding: .7em 2em;
+    border-radius: 1.4em;
+}
+
+/* Sezione About-us */
+.about-us h2:first-child{
+    padding-top: 2em;
+    font-size: 2em;
+    color: #9593E6;
+}
+
+.about-us p{
+    padding-top: 2em;
+
+}
+
+.about-img{
+    max-width: 60%;
+    margin-top: 1.8em;
+}
+
+.about-img img{
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.about-us h2{
+    padding-top: 1em;
+    font-size: 2em;
+    color: #9593E6;
+}
+
+.about-us button{
+    border: none;
+    background-color: #9593E6;
+    color: #fff;
+    padding: .7em 1.4em;
+    border-radius: 1.4em;
+    margin-top: 1.2em;
+    margin-bottom: 2em;
+}
+
+/* Sezione Get Started */
+.get-started{
+    background-color: #9593E6;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 2.4em;
+}
+
+.get-started h5{
+    padding: 1.6em 0;
+}
+
+.get-started h3{
+    font-size: 1.8em;
+    padding-bottom: 1.4em ;
+}
+
+.get-started h2{
+    font-size: 4em;
+    color: #FDC05F;
+    margin-bottom: .4em;
+}
+
+.get-started button{
+    border: none;
+    background-color: #fff;
+    color: #9593E6;
+    padding: 1.2em 5em;
+    border-radius: 2em;
+    margin: 1.8em auto;
+}
+
+.get-started a{
+    color: #fff;
+}
+
+/* Sezione footer */
+footer{
+    background-color: #333333;
+    color: #fff;
+    text-align: center;
+}
+
+footer p:first-child{
+    margin-bottom: 2em;
+    padding-top: 1.4em;
+}
+
+footer p:last-child{
+    padding-bottom: 1.6em;
+}
+
+footer a{
+    color: #9593E6;
+}
